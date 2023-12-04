@@ -21,6 +21,7 @@ function removeXfrom(arr,x) {
 }
 let arr = [16, 8, 1, 12, 14, 7, 18, 5, 4, 7, 7, 3, 4, 5, 19, 8, 1, 1, 4, 1];
 let x = 1;
+console.log(removeXfrom(arr,x));
 removeX(arr,x);
 console.log(arr);
 
